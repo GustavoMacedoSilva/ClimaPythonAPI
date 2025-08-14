@@ -31,7 +31,7 @@ build.bat
 ---
 
 ## Dependências
-- Python 3.8+  
+- Python 3.13  
 - [Pipenv](https://pipenv.pypa.io/) para gerenciamento de dependências  
 - `requests`  
 - `PyQt5`  
