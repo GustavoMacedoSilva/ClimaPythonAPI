@@ -47,5 +47,6 @@ O script `build.bat` automatiza:
 ---
 
 ## Licença
+```
 Este projeto é open-source e livre para uso educativo e pessoal.
 ```
