@@ -16,7 +16,7 @@ Um aplicativo simples em Python que exibe o clima de uma cidade usando a API do 
 
 1. Clone o repositório:  
 ```bash
-git clone <URL_DO_REPO>
+git clone https://github.com/GustavoMacedoSilva/ClimaPythonAPI.git
 cd ClimaPython
 ```
 
