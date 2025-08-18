@@ -1,4 +1,4 @@
-```markdown
+
 # 🌦️ BuscaClima
 
 Aplicativo em **Python** que exibe o clima atual de uma cidade usando a API do **OpenWeatherMap**.  
