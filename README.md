@@ -44,6 +44,12 @@ O script `build.bat` automatiza:
 - Limpeza de builds antigos
 - Criação do executável GUI (`--windowed`) incluindo `clima.png`.
 
+## Problema Merge
+O problema foi criado no arquivo README mesmo, para solucionar eu dei um ``git pull origin main``, depois no VSCODE apareceu onde estava as mudanças e o que eu queria manter ou remover, resolvi manter a mudança e dei o commit
+
+## Revert para commit anterior
+Acabei esquecendo de colocar mensagem no commit anterior mas ele foi o revert para meu README antigo, usando o hash do commit.
+
 ---
 
 ## Licença
