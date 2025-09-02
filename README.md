@@ -48,7 +48,14 @@ pipenv run pytest test_weatherAPI.py -v  # Executar todos os testes
 Se algum teste falhar devido a uma regressão, documente aqui:
 
 #### Histórico de Falhas
-*Nenhuma falha documentada ainda.*
+
+**Data:** 02/09/2025  
+**Descrição:** Regressão introduzida no PR que alterou o retorno da função `buscarClima`  
+**Problema:** A função passou a retornar uma string com "°C" anexado ao invés de retornar apenas o valor numérico da temperatura  
+**Testes Falharam:** 5 de 20 testes (todos os testes da função `buscarClima`)  
+**Erro:** `AssertionError: assert '25°C' == 25` - A função retorna string quando deveria retornar número  
+**Resolução:** Removido a conversão para string e retornado apenas o valor numérico da temperatura  
+**Status:** ✅ Corrigido
 
 ---
 
