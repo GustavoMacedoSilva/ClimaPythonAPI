@@ -6,7 +6,8 @@ import requests
 def buscarClima(cidade, key):
     r = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={key}&units=metric")
     dicionario = r.json()
-    temperatura = dicionario["main"]["temp"]
+    # REGRESSÃO: mudança incorreta que converte temperatura para string
+    temperatura = str(dicionario["main"]["temp"]) + "°C"
     return temperatura
 
 def buscarHumidade (cidade, key):
