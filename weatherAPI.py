@@ -13,4 +13,4 @@ def buscarHumidade (cidade, key):
     r = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={key}&units=metric")
     dicionario = r.json()
     humidade = dicionario["main"]["humidity"]
-    print(humidade)
+    return humidade

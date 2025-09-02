@@ -111,8 +111,8 @@ class MainWindow(QMainWindow):
                 error_vazio.exec_()
             else:
                 temperatura = buscarClima(cidade_escolhida, self.apiwindow.weather_key)
-                self.terminal.setText(f"A cidade {cidade_escolhida} está com uma temperatura de {temperatura}")
                 humidade = buscarHumidade(cidade_escolhida, self.apiwindow.weather_key)
+                self.terminal.setText(f"A cidade {cidade_escolhida} está com uma temperatura de {temperatura}°C e umidade de {humidade}%")
     
     def closeEvent(self, event):
         if self.apiwindow != None:

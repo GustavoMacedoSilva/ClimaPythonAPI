@@ -30,6 +30,28 @@ build.bat
 
 ---
 
+## Testes Unitários
+
+Este projeto inclui uma suíte de testes unitários usando `pytest`. Os testes cobrem tanto casos positivos quanto negativos para as funções `buscarClima` e `buscarHumidade`.
+
+### Executando os testes
+```bash
+pipenv install pytest  # Instalar pytest (se necessário)
+pipenv run pytest test_weatherAPI.py -v  # Executar todos os testes
+```
+
+### Cobertura dos testes
+- **10 casos positivos**: Testam o comportamento esperado com dados válidos
+- **10 casos negativos**: Testam o tratamento de erros (chaves ausentes, respostas inválidas)
+
+### Documentação de falhas
+Se algum teste falhar devido a uma regressão, documente aqui:
+
+#### Histórico de Falhas
+*Nenhuma falha documentada ainda.*
+
+---
+
 ## Dependências
 - Python 3.13  
 - [Pipenv](https://pipenv.pypa.io/) para gerenciamento de dependências  
